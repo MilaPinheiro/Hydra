@@ -49,7 +49,7 @@
 .header-container-nav-ul {
     width: 80%;
     display: flex;
-    gap: 41px;
+   
     align-items: center;
     justify-content: center;
 
@@ -58,11 +58,19 @@
 .nav-ul-li-a:hover {
     color: #8176AF;
     font-size: 15px;
+
 }
 
 .nav-ul-li {
     list-style: none;
-    
+    height: 30px;
+    width: 120px;
+    text-align: center;
+}
+
+.nav-ul-li:first-child {
+    text-align: right;
+    margin-right: 10px;
 }
 
 .nav-ul-li-a{
@@ -146,7 +154,7 @@
     font-size: 41px;
     font-weight: 700;
     color: #FFF;
-    text-align: center;
+   
 }
 
 .title{
@@ -179,11 +187,12 @@
     padding: 17px 38px;
     cursor: pointer;
     border: none;
-    margin-top: 66px;
+    margin-top: 60px;
+    border: 1px solid #343045;
 }
 
 .sectionOne-reality-divOne-button1:hover {
-    border: 2px solid #FFF;
+    border: 1px solid #FFF;
     background: #302C42;
     color: #FFF;
     transition: 0.5s;
@@ -358,7 +367,7 @@
 }
 
 .sectionTwo-container-about-divTwo-button:hover {
-    border: 2px solid #FFF;
+    border: 1px solid #FFF;
     background: #302C42;
     color: #FFF;
     transition: 0.5s;
@@ -445,6 +454,7 @@
     margin: auto;
     z-index: 4;
 
+
 }
 
 .sectionThree-container-divTwo-card-mask-img {
@@ -495,11 +505,11 @@
     border: none;
     cursor: pointer;
     margin-top: 35px;
-
+    border: 1px solid #343045;
 }
 
 .sectionThree-container-divTwo-card-mask-box-btn:hover {
-    border: 2px solid #FFF;
+    border: 1px solid #FFF;
     background: #302C42;
     color: #FFF;
     transition: 0.5s;
@@ -788,11 +798,11 @@
     border: none;
     padding: 16px 55px;
     margin-top: 51px;
- 
+    border: 1px solid #343045;
 }
 
 .sectionSix-container-join-buttons button:hover {
-    border: 2px solid #FFF;
+    border: 1px solid #FFF;
     background: #302C42;
     color: #FFF;
     transition: 0.5s;
