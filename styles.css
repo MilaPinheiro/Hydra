@@ -815,15 +815,18 @@
 
 }
 
+
 .input input {
     background: transparent;
     border: none;
+    color: white;
 }
 
 
 .input textarea {
     border: none;
     background: transparent;
+    color: white;
 }
 
 
