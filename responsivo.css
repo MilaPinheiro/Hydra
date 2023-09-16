@@ -583,6 +583,12 @@
     .sectionSix-container-join-divOne {
         width: 50%;
     }
+    
+
+    .sectionSix-container div {
+        width: 100%;
+       
+    }
 
     .sectionSix-container-join-divOne-title{
         font-size: 24px;
